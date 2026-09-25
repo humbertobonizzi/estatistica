@@ -1,0 +1,11 @@
+---
+title: "Sobre"
+---
+
+Olá, sou Humberto. Este site é meu espaço para aprender machine learning na prática e documentar publicamente as análises e aprendizados ao longo do caminho.
+
+### Contato
+
+- E-mail: [humbertobonizzi@gmail.com](mailto:humbertobonizzi@gmail.com)
+- GitHub: adicione o link do seu perfil aqui
+- LinkedIn: adicione o link do seu perfil aqui

@@ -1,0 +1,15 @@
+---
+title: "Estatística & Machine Learning"
+page-layout: full
+---
+
+## Olá! 👋
+
+Este é meu portfólio de análises de dados e aprendizado em estatística e machine learning. Aqui você encontra:
+
+- **[Análises](analises/index.qmd)** — projetos de ponta a ponta: EDA, regressão, classificação, séries temporais e mais, sempre com dados reais e código aberto.
+- **[Aprendizado](aprendizado/index.qmd)** — posts curtos explicando conceitos de estatística e ML à medida que vou estudando, como forma de fixar o conhecimento.
+
+Todo o código está disponível nos notebooks de cada análise. Sinta-se à vontade para explorar, reproduzir ou sugerir melhorias.
+
+Saiba mais [sobre mim](sobre.qmd).

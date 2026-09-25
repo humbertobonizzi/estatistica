@@ -1,0 +1,15 @@
+/* Ajustes visuais do site */
+
+body {
+  line-height: 1.65;
+}
+
+.quarto-title-banner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 180px;
+}

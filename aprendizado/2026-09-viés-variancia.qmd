@@ -1,0 +1,36 @@
+---
+title: "O trade-off entre viés e variância"
+date: 2026-09-25
+categories: [fundamentos, machine learning]
+description: "Por que todo modelo de ML precisa equilibrar simplicidade e flexibilidade, e como isso se conecta com overfitting e underfitting."
+---
+
+## O problema
+
+Ao treinar um modelo, existe uma tensão fundamental entre dois tipos de erro:
+
+- **Viés (bias)**: erro por o modelo ser simples demais para capturar o padrão real dos dados (underfitting).
+- **Variância**: erro por o modelo ser sensível demais aos dados de treino, capturando ruído em vez de sinal (overfitting).
+
+O erro total de generalização pode ser decomposto (de forma simplificada) como:
+
+$$
+\text{Erro} = \text{Viés}^2 + \text{Variância} + \text{Erro irredutível}
+$$
+
+## Intuição
+
+- Um modelo **muito simples** (ex: regressão linear em dados claramente não-lineares) tem **alto viés**: erra de forma consistente, tanto no treino quanto no teste.
+- Um modelo **muito complexo** (ex: árvore de decisão sem limite de profundidade) tem **alta variância**: acerta quase perfeitamente no treino, mas erra muito em dados novos, porque memorizou particularidades do conjunto de treino.
+
+O objetivo não é eliminar viés ou variância isoladamente, mas encontrar o ponto de equilíbrio que minimiza o erro em dados **não vistos**.
+
+## Como isso aparece na prática
+
+- Curvas de aprendizado (*learning curves*) ajudam a diagnosticar qual dos dois problemas está ocorrendo.
+- Técnicas de regularização (L1/L2, poda de árvores, dropout em redes neurais) reduzem variância à custa de um pouco mais de viés.
+- Validação cruzada é a ferramenta padrão para estimar o erro de generalização e comparar modelos de forma justa.
+
+## Por que isso importa para os projetos deste site
+
+Em cada análise de classificação/regressão do portfólio, vou reportar não só a métrica no conjunto de treino, mas também em validação/teste — justamente para deixar visível esse equilíbrio entre viés e variância, e explicar as escolhas de regularização e complexidade do modelo.

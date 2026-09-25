@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Estatística & ML"
+  description: "Portfólio de análises e aprendizado em estatística e machine learning"
+  site-url: "https://SEU-USUARIO.github.io/estatistica" # ajuste para a URL real do seu GitHub Pages
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+      - href: analises/index.qmd
+        text: Análises
+      - href: aprendizado/index.qmd
+        text: Aprendizado
+      - href: sobre.qmd
+        text: Sobre
+    right:
+      - icon: github
+        href: https://github.com/
+        aria-label: GitHub
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    code-fold: show
+    code-tools: true
+    fig-responsive: true
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 200px
+
+execute:
+  freeze: auto

@@ -1,0 +1,13 @@
+---
+title: "Aprendizado"
+listing:
+  contents: .
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: true
+  exclude:
+    filename: "index.qmd"
+page-layout: full
+title-block-banner: false
+---
