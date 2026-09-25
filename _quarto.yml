@@ -5,7 +5,7 @@ project:
 website:
   title: "Estatística & ML"
   description: "Portfólio de análises e aprendizado em estatística e machine learning"
-  site-url: "https://SEU-USUARIO.github.io/estatistica" # ajuste para a URL real do seu GitHub Pages
+  site-url: "https://humbertobonizzi.github.io/estatistica"
   navbar:
     left:
       - href: index.qmd
@@ -18,7 +18,7 @@ website:
         text: Sobre
     right:
       - icon: github
-        href: https://github.com/
+        href: https://github.com/humbertobonizzi/estatistica
         aria-label: GitHub
 
 format:

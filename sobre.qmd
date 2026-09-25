@@ -7,5 +7,5 @@ Olá, sou Humberto. Este site é meu espaço para aprender machine learning na p
 ### Contato
 
 - E-mail: [humbertobonizzi@gmail.com](mailto:humbertobonizzi@gmail.com)
-- GitHub: adicione o link do seu perfil aqui
+- GitHub: [@humbertobonizzi](https://github.com/humbertobonizzi)
 - LinkedIn: adicione o link do seu perfil aqui
